@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- <head> -->
+<meta charset="utf-8">
+<title>Travler</title>
+<link rel="stylesheet" href="normalize.css">
+<!-- <link rel="stylesheet" href="style-compressed.css"> -->
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container">
+    <div class="header">
+      <div class="important-line">
+        <div class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="51px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="48px" height="51px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(255, 255, 255)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="PSgrad_0" x1="0%" x2="52.992%" y1="84.805%" y2="0%">
+  <stop offset="0%" stop-color="rgb(0,0,0)" stop-opacity="0.3" />
+  <stop offset="100%" stop-color="rgb(255,255,255)" stop-opacity="0.3" />
+</linearGradient>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(128, 56, 194)"
+ d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"/>
+</svg>
+          <div class="logo__description">
+            <h1 class="logo__name">travler</h1>
+            <p class="logo__phrase">Get the advice you need about travel</p>
+          </div>
+        </div>
+        <div class="tools-bar">
+          <a href="#" class="tools-bar__tools">Quicklinks</a>
+          <a href="#" class="tools-bar__tools">Select from dropdown</a>
+          <input class="tools-bar__search" type="text" name="search" placeholder="Search for something here">
+          <span class="tools-bar__search--image-hover"></span>
+        </div>
+      </div>
+      <nav class="navigation">
+        <a href="#" class="nav-box"><img src="network.svg" width="27" height="26" alt="emblem"><p class="nav-box__inner">Services</p></a>
+        <a href="#" class="nav-box"><img src="plane.svg" alt="emblem"><p class="nav-box__inner">About</p></a>
+        <a href="#" class="nav-box"><img src="file.svg" alt="emblem"><p class="nav-box__inner">Travel Guide</p></a>
+        <a href="#" class="nav-box"><img src="flag.svg" alt="emblem"><p class="nav-box__inner">The Tour</p></a>
+        <a href="#" class="nav-box"><img src="network.svg" alt="emblem"><p class="nav-box__inner">How to</p></a>
+        <a href="#" class="nav-box"><img src="file.svg" alt="emblem"><p class="nav-box__inner">Contact</p></a>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <div class="logo-circle"></div>
+    <h3 class="slider-small__header">Travler gets you to where <br>you want to be. </h3>
+    <p class="slider-small__description">Around the world. Around the clock.</p>
+  </section>
+  <section class="container">
+    <div class="inner">
+      <h2 class="inner__header">Anywhere, anytime, where here to help.</h2>
+      <p class="inner__description">And we mean that</p>
+      <div class="section-description">
+        <div class="description-block">
+          <h3 class="description-block__name">Save Time</h3>
+          <p class="description-block_description">Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. Gutful of jug where as busy as a big smoke. Grab us a billy as cunning as a bull bar. As cunning as a bonzer flamin as stands out like
+            cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo. Built like a old fella no dramas grab us a ten clicks away. Lets get some digger
+            when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
+        </div>
+        <div class="description-block">
+          <h3 class="description-block__name">Win over the Team</h3>
+          <p class="description-block_description">As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo.
+          </p>
+          <p class="description-block_description">Built like a old fella no dramas grab us a ten clicks away.
+          </p>
+        </div>
+        <div class="description-block">
+          <h3 class="description-block__name">Design Feautures</h3>
+          <p class="description-block_description">Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.
+          </p>
+          <p class="description-block_description">A old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+  <section class="container">
+    <div class="screen">
+      <div class="big-screen">
+        <div class="inner-screen">
+          <div class="emblems-way">
+            <svg class="bigger-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76px" height="76px">
+          <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+           d="M38.000,76.000 C17.047,76.000 0.000,58.953 0.000,38.000 C0.000,17.047 17.047,0.000 38.000,0.000 C58.953,0.000 76.000,17.047 76.000,38.000 C76.000,58.953 58.953,76.000 38.000,76.000 ZM38.000,4.000 C19.252,4.000 4.000,19.252 4.000,38.000 C4.000,56.748 19.252,72.000 38.000,72.000 C56.748,72.000 72.000,56.748 72.000,38.000 C72.000,19.252 56.748,4.000 38.000,4.000 ZM38.000,67.000 C22.010,67.000 9.000,53.991 9.000,38.000 C9.000,22.009 22.010,9.000 38.000,9.000 C53.990,9.000 67.000,22.009 67.000,38.000 C67.000,53.991 53.990,67.000 38.000,67.000 ZM38.000,13.000 C24.215,13.000 13.000,24.215 13.000,38.000 C13.000,51.785 24.215,63.000 38.000,63.000 C51.785,63.000 63.000,51.785 63.000,38.000 C63.000,24.215 51.785,13.000 38.000,13.000 ZM47.000,40.000 L38.000,40.000 C36.896,40.000 36.000,39.105 36.000,38.000 L36.000,29.000 C36.000,27.896 36.896,27.000 38.000,27.000 C39.105,27.000 40.000,27.896 40.000,29.000 L40.000,36.000 L47.000,36.000 C48.105,36.000 49.000,36.896 49.000,38.000 C49.000,39.105 48.105,40.000 47.000,40.000 Z"/>
+          </svg>
+            <div class="emblems-way__line emblems-way__line--longer-bright"></div>
+            <svg class="bigger-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84px" height="51px">
+          <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+           d="M8.190,50.982 C7.796,50.982 7.411,50.865 7.083,50.645 C-0.076,45.840 -2.007,36.052 2.776,28.827 C5.092,25.328 8.620,22.944 12.709,22.115 C14.143,21.825 15.586,21.737 16.999,21.846 C16.939,21.589 16.930,21.315 16.979,21.038 C18.128,14.569 21.710,8.937 27.065,5.180 C32.420,1.423 38.907,-0.009 45.334,1.147 C54.035,2.714 60.976,8.796 63.930,16.738 C64.202,16.616 64.496,16.555 64.826,16.565 C70.900,16.815 76.391,19.826 79.887,24.827 C82.855,29.075 83.998,34.000 83.101,38.695 C82.218,43.325 79.395,47.530 75.153,50.536 C74.817,50.774 74.418,50.901 74.007,50.902 L8.192,50.982 L8.190,50.982 ZM15.815,25.819 C15.045,25.819 14.269,25.897 13.497,26.053 C10.450,26.671 7.822,28.447 6.096,31.055 C2.641,36.273 3.886,43.282 8.819,46.964 L73.354,46.886 C76.468,44.517 78.530,41.360 79.184,37.936 C79.884,34.269 78.998,30.536 76.624,27.139 C73.916,23.266 69.702,20.896 65.017,20.598 C65.308,22.091 65.465,23.629 65.473,25.198 C65.480,26.307 64.592,27.212 63.490,27.218 C63.486,27.218 63.482,27.218 63.479,27.218 C62.382,27.218 61.491,26.326 61.484,25.221 C61.427,15.311 54.339,6.849 44.632,5.101 C39.254,4.135 33.828,5.332 29.346,8.476 C24.865,11.619 21.868,16.332 20.906,21.745 C20.853,22.047 20.735,22.320 20.570,22.554 C21.921,22.994 23.220,23.625 24.433,24.440 C25.350,25.056 25.597,26.303 24.987,27.225 C24.375,28.148 23.136,28.399 22.220,27.782 C20.295,26.489 18.080,25.819 15.815,25.819 ZM54.114,23.147 C53.059,23.147 52.178,22.313 52.124,21.240 C51.880,16.372 47.718,12.609 42.916,12.859 C41.830,12.908 40.879,12.062 40.824,10.954 C40.768,9.846 41.615,8.902 42.715,8.847 C49.785,8.499 55.754,13.958 56.108,21.037 C56.164,22.145 55.317,23.089 54.217,23.144 C54.183,23.146 54.148,23.147 54.114,23.147 Z"/>
+          </svg>
+            <div class="emblems-way__line emblems-way__line--longer-bright"></div>
+            <svg class="bigger-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76px" height="76px">
+          <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+           d="M38.000,76.001 C37.991,76.001 37.982,76.001 37.975,76.001 C37.649,75.996 37.341,75.914 37.069,75.772 L1.111,57.806 C0.433,57.468 0.006,56.775 0.006,56.019 L0.006,20.091 C-0.000,19.797 0.058,19.497 0.190,19.212 C0.204,19.183 0.219,19.154 0.233,19.126 C0.438,18.733 0.757,18.436 1.129,18.255 L19.089,9.282 C19.101,9.276 19.113,9.269 19.126,9.263 L37.106,0.280 C37.668,-0.001 38.332,-0.001 38.894,0.280 L74.869,18.254 C75.242,18.435 75.562,18.733 75.767,19.126 C75.781,19.154 75.796,19.183 75.810,19.212 C75.942,19.497 76.000,19.797 75.994,20.091 L75.994,56.019 C75.994,56.775 75.567,57.468 74.889,57.806 L38.931,75.772 C38.659,75.914 38.352,75.996 38.025,76.001 C38.018,76.001 38.009,76.001 38.000,76.001 ZM40.000,39.270 L40.000,70.770 L71.995,54.784 L71.995,23.284 L56.911,30.820 C56.900,30.827 56.887,30.833 56.874,30.839 L40.000,39.270 ZM4.005,54.784 L36.000,70.770 L36.000,39.270 L4.005,23.284 L4.005,54.784 ZM6.476,20.051 L38.000,35.801 L51.526,29.043 L20.003,13.293 L6.476,20.051 ZM24.474,11.059 L55.997,26.809 L69.524,20.051 L38.000,4.301 L24.474,11.059 ZM29.001,58.017 C28.696,58.017 28.389,57.947 28.107,57.806 L10.110,48.814 C9.432,48.476 9.004,47.783 9.004,47.027 L9.004,38.035 C9.004,37.342 9.364,36.699 9.952,36.335 C10.543,35.971 11.278,35.938 11.898,36.247 L29.896,45.239 C30.573,45.578 31.001,46.270 31.001,47.027 L31.001,56.019 C31.001,56.712 30.642,57.354 30.053,57.718 C29.732,57.917 29.367,58.017 29.001,58.017 ZM13.004,45.792 L27.002,52.786 L27.002,48.261 L13.004,41.268 L13.004,45.792 Z"/>
+          </svg>
+          </div>
+          <h2 class="inner-screen__header">A simple beginning lead to big ideas</h2>
+          <p class="inner-screen__ps">We started small but grew quickly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="about-us-block">
+      <h2 class="about-us-block__header">A humble Team we are</h2>
+      <p class="about-us-block__details">We’ll some of us anyways</p>
+      <div class="slider">
+        <!-- 1 SLIDE -->
+        <input class="slider__inputs" type="radio" name="team-slider" id="slide-1" checked>
+        <div class="slider__page">
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <input class="slider__inputs" type="radio" name="team-slider" id="slide-2">
+        <div class="slider__page">
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="2.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+        </div>
+        <!-- SLIDE 3 -->
+        <input class="slider__inputs" type="radio" name="team-slider" id="slide-3">
+        <div class="slider__page">
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="3.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+        </div>
+        <!-- SLIDE 4 -->
+        <input class="slider__inputs" type="radio" name="team-slider" id="slide-4">
+        <div class="slider__page">
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="4.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+          <div class="cart-item">
+            <div class="image-container">
+              <img class="image-container__picture" src="1.jpg" alt="person">
+              <a class="network-box" href="#twitter"><img src="tw.svg" alt="twitter" height="18" width="26"></a>
+            </div>
+            <h4 class="cart-item__header">Josh Jansen</h4>
+            <p class="cart-item__description">Digital Producer</p>
+          </div>
+        </div>
+        <nav class="slider__navigation">
+          <label for="slide-1" class="round"></label>
+          <label for="slide-2" class="round"></label>
+          <label for="slide-3" class="round"></label>
+          <label for="slide-4" class="round"></label>
+        </nav>
+      </div>
+      <div class="half-content-blocks">
+        <div class="content-box content-box__smaller">
+          <div class="plus-box">+</div>
+          <h3 class="content-box__header">Winning Design Awards</h3>
+          <p class="content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim +</p>
+          <p class="content-box__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+        </div>
+        <div class="content-box content-box__smaller">
+          <div class="plus-box">+</div>
+          <h3 class="content-box__header">Badass Features</h3>
+          <p class="content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim +</p>
+          <p class="content-box__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+        </div>
+      </div>
+      <div class="content-box">
+        <h3 class="content-box__header">A full col text box sits nicely like this</h3>
+        <p class="content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim +</p>
+        <p class="content-box__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <footer class="footer-box">
+      <div class="first-box">
+        <div class="logo">
+          <img src="logo-white.svg" alt="logo">
+          <div class="logo-description">
+            <h1 class="logo-description__name logo-description__name--bright">travler</h1>
+            <p class="logo-description__phrase logo-description__phrase-bright">Get the advice you need about travel</p>
+          </div>
+        </div>
+        <nav class="bottom-footer">
+          <a href="#" class="bottom-footer--boxes">
+            <p class="boxes-text">Portfolio</p>
+          </a>
+          <a href="#" class="bottom-footer--boxes">
+            <p class="boxes-text">Services</p>
+          </a>
+          <a href="#" class="bottom-footer--boxes">
+            <p class="boxes-text">Staff</p>
+          </a>
+          <a href="#" class="bottom-footer--boxes">
+            <p class="boxes-text">Articles</p>
+          </a>
+          <a href="#" class="bottom-footer--boxes">
+            <p class="boxes-text">Contact</p>
+          </a>
+        </nav>
+      </div>
+      <div class="second-box">
+        <p class="second-box__description">Trent from punchy digger bloody gutful of mokkies. Get a dog up ya fair dinkum mate as cross as a flake. Stands out like a bluey flamin stands out like a pot. As stands out like christmas to grab us a ugg boots. She'll be right buckley's chance
+          my as stands out like divvy van. It'll be smokes trent from punchy chewie. It'll be gone walkabout flamin we're going roo bar. Shazza got us some mickey mouse mate flamin it'll be rort. We're going freo with grab us a his blood's worth bottling.
+          Lets throw a stubby when mad as a rubbish. Gutful of battler mate lets throw a sanger.
+        </p>
+        <div class="social-networks">
+          <a class="social-networks__item" href="#"><img src="tw.svg" alt="logo"><p class="social-networks__name">Twitter</p></a>
+          <a class="social-networks__item" href="#"><img src="fb.svg" alt="logo"><p class="social-networks__name">Facebook</p></a>
+          <a class="social-networks__item" href="#"><img src="rss.svg" alt="logo"><p class="social-networks__name">RSS</p></a>
+          <a class="social-networks__item" href="#"><img src="mail.svg" alt="logo"><p class="social-networks__name">Mail</p></a>
+        </div>
+      </div>
+      <div class="third-box">
+        <nav class="last-nav">
+          <a class="last-nav__items" href="">About us</a>
+          <a class="last-nav__items" href="">Footer Links here </a>
+          <a class="last-nav__items" href="">Privacy</a>
+          <a class="last-nav__items" href="">Icons by http://www.dribbble.com/joshuaandrewdavies</a>
+        </nav>
+        <p class="third-box__description">As cross as a hoon my built like a op shop. We're going bored sh*tless heaps she'll be right budgie smugglers. Grab us a durry mate she'll be right dunny rat. She'll be right larrikin with skite. As stands out like kero it'll be truckie.nch. Lets
+          get some icy pole no dramas as cross as a ya.</p>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
